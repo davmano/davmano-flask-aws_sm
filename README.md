@@ -1,3 +1,6 @@
+## Structure 
+
+```
 .
 ├── app.py
 ├── Dockerfile
@@ -16,3 +19,4 @@
 ├── README.md
 ├── requirements.txt
 └── .trivyignore
+``
