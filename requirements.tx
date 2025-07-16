@@ -1,2 +1,0 @@
-flask
-boto3  # for AWS Secrets Manager
