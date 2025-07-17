@@ -19,4 +19,8 @@
 ├── README.md
 ├── requirements.txt
 └── .trivyignore
-``
+```
+
+## CI/CD Pipeline Badge
+
+[![CI/CD](https://github.com/davmano/davmano-flask-aws_sm/actions/workflows/cicd.yml/badge.svg)](https://github.com/davmano/davmano-flask-aws_sm/actions/workflows/cicd.yml)
