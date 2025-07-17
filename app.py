@@ -18,6 +18,10 @@ def get_secret(secret_name):
 
 app = Flask(__name__)
 
+@app.route('/version')
+def version():
+    return {"version": "1.0.1"}
+
 @app.route('/')
 def hello():
     # Environment variables for app name and local secrets
