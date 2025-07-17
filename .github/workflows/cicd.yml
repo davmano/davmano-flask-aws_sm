@@ -4,7 +4,7 @@ on:
   push:
     branches: [ main ]
     paths-ignore:
-      - 'k8s-gitops-repo/k8/**'
+      - 'gitops/k8/**'
 
 env:
   IMAGE_NAME: davmano/flask-app_sm
