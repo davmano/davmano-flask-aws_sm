@@ -3,15 +3,12 @@ name: CI/CD Pipeline
 on:
   push:
     branches: [ main ]
-    paths-ignore:
-      - 'gitops/k8/**'
 
 env:
   IMAGE_NAME: davmano/flask-app_sm
 
 jobs:
   build-scan-push-update-gitops:
-    if: github.actor != 'github-actions[bot]'
     runs-on: ubuntu-latest
 
     steps:
