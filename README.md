@@ -46,7 +46,7 @@
                        ⏱ ArgoCD Sync
                              ▼
                     🧩 Kubernetes Cluster
-               Runs flask-app_sm:<sha> image## Project Structure 
+               Runs flask-app_sm:<sha> image
 ```
 
 
